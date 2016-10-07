@@ -8,3 +8,7 @@ if (str1 === str2) {
     this.isAnagram = false;
 }
 
+
+
+// distance between two points from their coordinates:
+var d = Math.sqrt(Math.pow(x1-x2, 2) + Math.pow(y1-y2, 2));
