@@ -1,11 +1,12 @@
 //------------------------------------------------ ARRAYS ---------------------------------------------//
-// without index
+// loop without index (pop method changes the length of the array)
 var item; 
 while ((item = arr.pop()) != null) {
 	//...
 }
+// arr.length === 0
 
-// same, with index
+// same, with index, dont change the array
 var item;
 var len = arr.length-1;
 while(len >= 0){
